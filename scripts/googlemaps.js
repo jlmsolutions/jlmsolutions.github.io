@@ -1,5 +1,5 @@
 function myMap() {
-    var myCenter = new google.maps.LatLng(18.403479,-66.056622);
+    var myCenter = new google.maps.LatLng(18.390070,-66.095146);
     var mapCanvas = document.getElementById("googleMap");
     var mapOptions = {center: myCenter, zoom: 14, mapTypeControl: true,
         mapTypeControlOptions: {
@@ -11,7 +11,7 @@ function myMap() {
     marker.setMap(map);
     google.maps.event.addListener(marker,'click',function() {
         var infowindow = new google.maps.InfoWindow({
-            content:"Come visit us! - J.Porrata, PSC"});
+            content:"Come visit us! - JLM Solutions Corp."});
         infowindow.open(map,marker);
     });
 }

@@ -12,10 +12,14 @@
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="apple-touch-icon" sizes="57x57" href="icons/fav/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="icons/fav/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="icons/fav/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="icons/fav/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="57x57"
+    href="icons/fav/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60"
+    href="icons/fav/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72"
+    href="icons/fav/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76"
+    href="icons/fav/apple-icon-76x76.png">
     <link rel="apple-touch-icon" sizes="114x114"
         href="icons/fav/apple-icon-114x114.png">
     <link rel="apple-touch-icon" sizes="120x120"
@@ -43,47 +47,49 @@
 
 
 <body>
-    <div class="topnav" id="myTopnav">
+    <header class="topnav" id="myTopnav">
         <a class='logo-image' id="first-child"
             href="https://www.jlmsolutionscorp.com">
             <img src="icons/logo.png"
             style="border-radius:5px;height:84px;width:114px">
         </a>
         <p id='logo-text'>
-            <em>Energy efficient for you.
-                <br>Green ideas for our planet.
+            <em>Energy efficient for You.
+                <br>Green ideas for our Planet.
             </em>
         </p>
-        <a href="#contact-us" class="button">Contact Us</a>
-        <a href="#suppliers" class="button">Suppliers</a>
-        <a href="#products" class="button">Products</a>
-        <a href="#why-LED" class="button">Why LED</a>
-        <a href="#about-us" class="button">About Us</a>
-        <a href="#top" class="button">Home</a>
+        <a href="#contact-us" class="button black-text">Contact</a>
+        <a href="#suppliers" class="button black-text">Suppliers</a>
+        <a href="#projects" class="button black-text">Projects</a>
+        <a href="#products" class="button black-text">Products</a>
+        <a href="#why-LED" class="button black-text">Why LED</a>
+        <a href="#about-us" class="button black-text">About</a>
+        <a href="#top" class="button black-text">Home</a>
         <a href="javascript:void(0);" class="hamburger" onclick="openNav();">
             <i class="fa fa-bars"></i>
         </a>
-    </div>
+    </header>
 
-    <div hidden id="mySidenav" class="sidenav">
+    <nav hidden id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn"
             onclick="closeNav()">&times;</a>
         <a href="#top" onclick="closeNav();">Home</a>
-        <a href="#about-us" onclick="closeNav();">About Us</a>
+        <a href="#about-us" onclick="closeNav();">About</a>
         <a href="#why-LED" onclick="closeNav();">Why LED</a>
         <a href="#products" onclick="closeNav();">Products</a>
+        <a href="#projects" onclick="closeNav();">Projects</a>
         <a href="#suppliers" onclick="closeNav();">Suppliers</a>
-        <a href="#contact-us" onclick="closeNav();">Contact Us</a>
-        <p id="navbar-footer">Copyright &copy 2018, JLM Solutions Corp. All
+        <a href="#contact-us" onclick="closeNav();">Contact</a>
+        <p id="navbar-footer">Copyright &copy; 2018, JLM Solutions Corp. All
             Rights Reserved.
         </p>
-    </div>
+    </nav>
 
 
     <div class='content'>
-        <div class="table-row slideshow-container">
+        <section class="slideshow-container">
             <div class='introduction-text'>
-                Energy Efficient Lighting LED and LEP products.
+                Energy Efficient LED Lighting &amp; Products.
             </div>
 
             <div class="slideshow" id="top">
@@ -118,11 +124,10 @@
                     </a>
                 </p>
             </div>
-        </div>
-    </div>
+        </section>
 
 
-        <div class='table-row gray-background' id="about-us">
+        <section class='table-row black-background' id="about-us">
 
             <h2>About Us</h2>
             <p class="lowbar">&#x2594;</p>
@@ -137,272 +142,386 @@
             <p class="about-us-paragraph">
                 Privately held for the Puerto Rico and Caribbean markets,
                 it was established in 2012 by <em>Eng. Enrique Hern&aacute;ndez
-                </em> and <em>Eng. Miguel P. V&eacutelez, PE</em>.
-                Eng. Hern&aacute;ndez, a graduate of <a href="https://www.gatech.edu/">Georgia Tech</a> with a Master's
+                </em> and <em>Eng. Miguel P. V&eacute;lez, PE</em>.
+                Eng. Hern&aacute;ndez, a graduate of <a class="link-in-black-b" href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
+                with a Master's
                 Degree in Electrical Engineering, has been involved in the
                 electronic and automotive industries and representation of
-                electronic and electrical products. Eng. V&eacutelez, another
-                graduate of <a href="https://www.gatech.edu/">Georgia Tech</a>
+                electronic and electrical products. Eng. V&eacute;lez, another
+                graduate of <a class="link-in-black-b"
+                href="https://www.gatech.edu/" target="_blank">Georgia Tech</a>
                 with a Bachelor's Degree in Civil Engineering and a licenced
                 Professional Engineer, has been involved in the construction
                 industry in Puerto Rico and abroad.
             </p>
 
-        </div>
+            <p class="about-us-paragraph">
+                JLM Solutions Corporation provides a complimentary analysis on
+                actual energy consumption compared with the proposed lighting
+                solution. Value added services include alliances with
+                Contractors, Financial Institutions, a personalized service
+                and follow-up.
+            </p>
+
+        </section>
 
 
-        <div class='table-row-products black-background' id="why-LED">
+        <section class='table-row-why-LED gray-background' id="why-LED">
             <h2>Why LED?</h2>
             <p class="lowbar">&#x2594;</p>
-        </div
+
+            <h3 class="black-text"><u>Facts in Puerto Rico</u></h3>
+            <p class="why-LED-paragraph">
+                It's no joke that the cost of energy has skyrocketed in the
+                past years, with <em>no end in sight</em>. In the United States,
+                residents pay around 13&#162; per kWh for their energy. In Puerto
+                Rico, we pay <a target="_blank"
+                href="https://www.eia.gov/state/print.php?sid=RQ">
+                twice this amount.</a>
+            </p>
+
+            <p class="why-LED-paragraph">
+                Energy conservation initiatives include:
+            </p>
+
+            <div>
+                <div class="one-third">
+                    <img src="icons/facts/gif/lights-off.gif" class="facts-img">
+                    <br>1.&nbsp; Turning off lights.
+
+                </div>
+
+                <div class="one-third">
+                    <img src="icons/facts/gif/solar-panels.gif"
+                    class="facts-img">
+                    <br>2.&nbsp; Solar energy-related devices (e.g.
+                    solar panels).
+                </div>
+
+                <div class="one-third shadow switch-to-LED-button">
+                    <img src="icons/facts/gif/LED-lights.gif" class="facts-img">
+                    <br>3.&nbsp;<em><strong>Switching to more energy-efficient
+                        light bulbs!</strong></em>
+                </div>
+            </div>
+
+            <p class="why-LED-paragraph">
+                Government initiatives to promote the reduction of energy in
+                electricity consumption has been limited compared to the US.
+                Repeated increases in the price of oil during this past ''lost
+                decade'' have made it clear that when it comes to energy
+                independence, it is time to talk less and to do more.<br><br>
+            </p>
+
+            <h3 class="black-text"><u>Features and Benefits of LEDs</u></h3>
+            <p class="why-LED-paragraph">
+                There are myriad reasons to switch your lighting system to LED
+                lights:
+            </p>
+
+            <div>
+                <div class="one-fourth m-4 m-3 m-2">
+                    <img src="icons/features/gif/save-energy.gif"
+                    class="facts-img">
+                    <br>Saves energy: <em>LED lights use 50% to 90% less
+                        power than traditional lighting.</em>
+                </div>
+
+                <div class="one-fourth">
+                    <img src="icons/features/gif/save-money.gif"
+                    class="facts-img">
+                    <br>Saves money.
+                </div>
+
+                <div class="one-fourth m-2">
+                    <img src="icons/features/gif/save-environment.gif"
+                    class="facts-img">
+                    <br> Saves the environment: <em>Less waste and
+                        disposal hazards.</em>
+                </div>
+
+                <div class="one-fourth m-3">
+                    <img src="icons/features/gif/instant-ON.gif"
+                    class="facts-img">
+                    <br> Instant On: <em>No warm-up time!</em>
+                </div>
+
+                <div class="one-fourth m-4 m-2">
+                    <img src="icons/features/gif/longer-life.gif"
+                    class="facts-img">
+                    <br> Lasts <strong>5 to 10</strong> times longer.
+                </div>
+
+                <div class="one-fourth">
+                    <img src="icons/features/gif/less-heat.gif"
+                    class="facts-img">
+                    <br> Generates less heat.
+                </div>
+
+                <div class="one-fourth m-3 m-2">
+                    <img src="icons/features/gif/less-pollution.gif"
+                    class="facts-img">
+                    <br> Eco-friendly: <em>No harsh chemicals (e.g.
+                    mercury).</em>
+                </div>
+
+                <div class="one-fourth">
+                    <img src="icons/features/gif/reduced-maintenance-cost.gif"
+                    class="facts-img">
+                    <br> Reduced maintenance cost.
+                </div>
+
+                <div class="one-fourth m-4 m-2">
+                    <img src="icons/features/gif/less-light-pollution.gif"
+                    class="facts-img">
+                    <br> Dark sky compliant.
+                </div>
+
+                <div class="one-fourth m-3">
+                    <img src="icons/features/gif/controllable.gif"
+                    class="facts-img">
+                    <br> Controllable: <em>Able to set controls at
+                    individual light.</em>
+                </div>
+
+                <div class="one-fourth m-2">
+                    <img src="icons/features/gif/better-visibility.gif"
+                    class="facts-img">
+                    <br> Better visibility: <em>White light has better
+                    <strong>Color Rendering Index</strong> (CRI).</em>
+                </div>
+
+                <div class="one-fourth">
+                    <img src="icons/features/gif/multiple-colors-option.gif"
+                    class="facts-img">
+                    <br> Multiple color options: <em>From 2,700 K (warm)
+                    to 6,500 K (cool) white.</em>
+                </div>
+
+                <div class="one-fourth m-4 m-3 m-2">
+                    <img src="icons/features/gif/no-UV.gif"
+                    class="facts-img">
+                    <br> No UV radiation: <em>Produces no Ultraviolet or
+                    Infrared light!</em>
+                </div>
+
+                <div class="one-fourth">
+                    <img src="icons/features/gif/durable.gif"
+                    class="facts-img">
+                    <br> More durable: <em>Breakage and vibration
+                    resistant.</em>
+                </div>
+
+                <div class="one-fourth m-2">
+                    <img src="icons/features/gif/less-glare.gif"
+                    class="facts-img">
+                    <br> Produces less glare: <em>Higher productivity and
+                    safety.</em>
+                </div>
+
+                <div class="one-fourth m-3">
+                    <img src="icons/features/gif/better-directional-lighting.gif"
+                    class="facts-img">
+                    <br> Better directional lighting.
+                </div>
+            </div>
+
+            <p class="why-LED-paragraph center"> The list goes on and on...</p>
+        </section>
 
 
-
-        <div class='table-row-products black-background' id="products">
+        <section class='table-row-products black-background' id="products">
 
             <h2>Products</h2>
             <p class="lowbar">&#x2594;</p>
 
-            <p id='products-paragraph'> J.Porrata, PSC has three main
-                departments, each providing top-quality appraisal services in a
-                reduced time frame by assigning a specialized task force to
-                meet special and important deadlines.
+            <p class="products-paragraph"> At JLM Solutions Corp, we provide
+                our customers with premium brand LED products.
             </p>
 
+            <div class="clearfix">
+                <div class="product-box product-box-1">
+                    <h3 class='option-product-title'>Indoor Commercial</h3>
+                    <p class='product-description'>
+                        <em class="yellow"> Designed to produce optimal energy
+                            savings:</em>
+                    </p>
+                    <p class='product-description'>
+                        <ul class="products-list">
+                            <li>Office spaces</li>
+                            <li>Office buildings</li>
+                            <li>Conference rooms, ...</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="product-box product-box-2">
+                    <h3 class='option-product-title'>Outdoor Area</h3>
+                    <p class='product-description'>
+                        <em class="yellow">
+                            We supply all exterior lighting needs:
+                        </em>
+                    </p>
+                    <p class='product-description'>
+                        <ul class="products-list">
+                            <li>Outside lighting</li>
+                            <li>Decorational lighting</li>
+                            <li>Outdoor post lights</li>
+                            <li>Porch, patio, ...</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="product-box product-box-3">
+                    <h3 class='option-product-title'>Residential Area</h3>
+                    <p class='product-description'>
+                        <em class="yellow">
+                            Full range of LED replacements for inside lighting:
+                        </em>
+                    </p>
+                    <p class='product-description'>
+                        <ul class="products-list">
+                            <li>Houses</li>
+                            <li>Apartments</li>
+                            <li>Terraces</li>
+                            <li>Garages</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="product-box product-box-4">
+                    <h3 class='option-product-title'>Industrial Area</h3>
+                    <p class='product-description'>
+                        <em class="yellow">
+                            All types of industrial buildings are also serviced:
+                        </em>
+                    </p>
+                    <p class='product-description'>
+                        <ul class="products-list">
+                            <li>Warehouses </li>
+                            <li>Pedestrian areas, ...</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <div class="product-box product-box-5">
+                    <h3 class='option-product-title'> Highways, Streets,
+                        Parkings, Bridges, ...
+                    </h3>
+                    <p class='product-description'>
+                        <em class="yellow">
+                            All of the above!
+                        </em>
+                    </p>
+                </div>
+
+                <div class="product-box product-box-6">
+                    <h3 class='option-product-title'>Fixtures</h3>
+                    <p class='product-description'>
+                        <em class="yellow">
+                            All types of fixtures needed for all purposes!
+                        </em>
+                    </p>
+
+                    <p class='product-description'>
+                        <ul class="products-list">
+                            <li>Troffers (2x2, 2x4, 1x4, etc.) </li>
+                            <li>Waterproof</li>
+                            <li>Architectural Styles</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+
+            <p class='products-paragraph'> </p>
+        </section>
+
+        <section class="table-row" id="projects">
+            <h2>Projects</h2>
             <p class="lowbar">&#x2594;</p>
 
-            <div class="product-box product-box-1">
-                <h3 id='option-product-title'>1. Commercial</h3>
-                <p id='product-description'>
-                    <em id="yellow">
-                        We provide all types of commercial appraisal work:
-                    </em>
-                </p>
-                <p id='product-description'>
-                    <ul>
-                        <li>&nbsp small &amp; medium size properties</li>
-                        <li>&nbsp prime office buildings</li>
-                        <li>&nbsp industrial plants</li>
-                        <li>&nbsp distribution warehouses</li>
-                        <li>&nbsp vacant land</li>
-                        <li>&nbsp agricultural properties &amp; farms</li>
-                        <li>&nbsp shopping centers</li>
-                        <li>&nbsp hotels</li>
-                        <li>&nbsp hospitals</li>
-                        <li>&nbsp quarries</li>
-                    </ul>
-                </p>
-            </div>
-
-            <div class="product-box product-box-2">
-                <h3 id='option-product-title'>2. Residential</h3>
-                <p id='product-description'>
-                    <em id="yellow">
-                        We service residential appraisal needs:
-                    </em>
-                </p>
-                <p id='product-description'>
-                    <ul>
-                        <li>&nbsp single-family residences</li>
-                        <li>&nbsp single-family apartments</li>
-                        <li>&nbsp upscale custom-built, pricey housing</li>
-                        <li>&nbsp residential lots</li>
-                        <li>&nbsp proposed residential subproducts</li>
-                        <li>&nbsp high-rise &amp; walk-up apartments</li>
-                    </ul>
-                </p>
-                <p id="db2"> </p>
-            </div>
-
-            <div class="product-box product-box-3">
-                <h3 id='option-product-title'>3. Consulting</h3>
-                <p id='product-description'>
-                    <em id="yellow">
-                        We offer specialized services to our clients:
-                    </em>
-                </p>
-                <p id='product-description'>
-                    <ul>
-                        <li>&nbsp market studies</li>
-                        <li>&nbsp land utilization analyses</li>
-                        <li>&nbsp economic feasibility studies</li>
-                        <li>&nbsp highest &amp; best use analyses</li>
-                        <li>&nbsp marketability &amp; investment analyses for
-                            proposed or existing developments</li>
-                        <li>&nbsp research-related studies</li>
-                        <li>&nbsp rental studies</li>
-                        <li>&nbsp litigation support</li>
-                    </ul>
-                </p>
-                <p id="db3"> </p>
-            </div>
-
-            <p id='products-paragraph'>
-                <br><br>We have also established a network of
-                outside consultants, including <em>leading construction
-                companies</em>, <em>engineers</em> and <em>architects</em>,
-                <em>lawyers</em>, <em>accountants</em>, <em>economic
-                consultants</em>, <em>real estate developers</em> and
-                <em>national appraisal firms</em>, which provide specialized
-                assistance and support.
+            <p class="why-LED-paragraph">
+                We have trusting relationships with clients all over the island
+                whom we've worked with. Some of our current projects are in
+                beginning stages, however others have been completed. Recent
+                clients include:
             </p>
-        </div>
+
+            <p>
+                <ul class="projects-list">
+                    <li>Garage Isla Verde &mdash; <a
+                        href="https://www.metro.pr/pr/tacometro/2018/03/18/garage-isla-verde-inaugura-nuevas-instalaciones.html" target="_blank">
+                        Showroom of cars</a>
+                    </li>
+                    <li>Wyndham R&iacute;o Mar Hotel &mdash; Clubhouse
+                    </li>
+                    <li>Triple-S Headquarters &mdash; All inner
+                        officespace lighting</li>
+                    <li>Interamerican University at San Germ&aacute;n
+                        &mdash; Facilities, classrooms, ...
+                    </li>
+                    <li>Baxter Healthcare Warehouse &mdash; Inner warehouse
+                        lighting
+                    </li>
+                </ul>
+            </p>
+
+        </section>
 
 
-        <div class='table-row table-row-less-bottom-padding gray-background2'
-            id="suppliers">
+        <section class='table-row black2-background' id="suppliers">
             <h2>Suppliers</h2>
             <p class="lowbar">&#x2594;</p>
 
-            <p class='suppliers-paragraph'>J. Porrata, PSC has offered its
-                services to all major financial institutions established in
-                Puerto Rico, as well as to leading local real estate development
-                corporations and local and federal government agencies.
+            <p class='suppliers-paragraph' style="clear:both;">
+                We have engaged and formed partnerships with suppliers that provide lighting products that
+                meet and/or exceed <em>any</em> specifications required by our
+                clients. Our major suppliers are:
             </p>
 
-            <p lass="lowbar">&#x2594;</p>
-
-            <div id="US-clients">
-                <h3>Continental US Clients:</h3>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/forest-city.png" alt="Forest City"
-                        style="width:186px;height:69px;" class="shadow">
-                    </div>
+            <div class="suppliers-box">
+                <div><br><img src="images/suppliers/GE-lighting.jpg"
+                    style="width:186px;height:77px;padding:8px;background-color:
+                    white;" class="shadow border">
                 </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/the-riverside-company.png"
-                        style="width:175px;height:67px;" class="shadow"></div>
-                </div>
-
-                <div class="clients-box">
-                    <div><img src="images/clients/structured-capital.png"
-                        style="width:161px;height:134px;background-color:#323266;" class="shadow"></div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img
-                        src="images/clients/integra-krauser-and-cirz.png"
-                        class="shadow" style="background-color:white;"></div>
-                </div>
-
-                <div class="clients-box">
-                    <div><img src="images/clients/simpson-housing-solutions.png"
-                        style="width:111px;height:130px;" class="shadow"></div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img
-                        src="images/clients/dorado-beach-hotel-corporation.png"
-                        style="width:179px;height:60px;" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/mma-financial.png"
-                        style="width:188px;height:57px;" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/gibraltar-construction.png"
-                        style="width:175px;height:53px;" class="shadow"></div>
-                </div>
-
-                <p class="lowbar">&#x2594;</p>
             </div>
 
-            <div id="PR-clients">
-                <h3>Clients In Puerto Rico:</h3>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/banco-popular.png"
-                        style="width:175px;height:54px;" class="shadow">
-                    </div>
+            <div class="suppliers-box">
+                <div><br><br>
+                    <img src="images/suppliers/Light-Efficient-Design.png"
+                    style="width:200px;height:59px;" class="shadow border">
                 </div>
-
-                <div class="clients-box">
-                    <div><img src="images/clients/oriental-bank.png" class="shadow"
-                        style="width:160px;height:81px;background-color:white;
-                        padding:0px 8px;">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/banco-santander.png"
-                        style="width:185px;height:57px;" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/scotiabank.png"
-                        style="width:165px;height:29px;border:8px white solid;" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><img src="images/clients/garage-isla-verde.png"
-                        style="width:110px;height:110px;" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img
-                        src="images/clients/interlink-pr.png"
-                        class="shadow"
-                        style="width:160px;height:30px;background-color:#19334A;
-                        padding-top:20px;">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/fr-construction.png"
-                        style="width:141px;height:64px;background-color:#19334A;
-                        border:3px solid #19334A" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/cemex.png"
-                        style="width:160px;height:44px;background-color:white;
-                        border:3px solid white" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><img src="images/clients/northwestern-selecta.png"
-                        style="width:120px;height:120px;" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/pepsico.png"
-                        style="width:141px;height:32px;background-color:white;
-                        border:5px solid white;" class="shadow">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img
-                        src="images/clients/walmart.png" class="shadow"
-                        style="width:150px;height:44px;background-color:white;"
-                        padding-top:20px;"">
-                    </div>
-                </div>
-
-                <div class="clients-box">
-                    <div><br><img src="images/clients/oneill-and-borges.png"
-                        style="width:160px;height:15px;background-color:white;
-                        padding: 5px;" class="shadow"></div>
-                </div>
-                <p class="lowbar" id="ref">&#x2594;</p>
             </div>
-        </div>
+
+            <div class="suppliers-box">
+                <div><br><img src="images/suppliers/4K-LED-tech.png"
+                    style="width:170px;height:100px;background-color:white;
+                    padding:12px" class="shadow border"></div>
+            </div>
+
+            <div class="suppliers-box">
+                <div><br><br><img src="images/suppliers/Brilliance-LED.png"
+                    style="width:200px;height:72px;" class="shadow border">
+                </div>
+            </div>
+
+            <div class="suppliers-box">
+                <div><img src="images/suppliers/Energetic-Lighting.jpg"
+                    class="shadow border" style="height:130px;width:130px;
+                    background-color:white;padding:8px;"></div>
+            </div>
+
+            <div class="suppliers-box">
+                <div><br><img src="images/suppliers/Roth-Lighting.png"
+                    class="shadow border" style="width:180px;height:98px;">
+                </div>
+            </div>
+            <div class="ref"> </div>
+        </section>
 
 
-        <div class='table-row gray-background'
-            id="contact-us">
+        <section class='table-row-contact-us gray-background'
+            id="contact-us" style="clear:both;">
             <h2>Contact Us</h2>
             <p class="lowbar">&#x2594;</p>
 
@@ -417,26 +536,20 @@
                     target="_top">mpvelez@jlmsolutionscorp.com
                 </a> <br><br>
                 Phone number: <br>
-                (787) 705-9109 <br><br>
-                Fax: <br>
-                (787) 793-4139 <br><br>
+                (787) 501-5355 <br><br>
                 #U3-22 PR-21 Road <br>
                 Las Lomas <br>
                 San Juan, PR 00921 <br><br>
-                Post Office Box 10933<br>
+                PO Box 10933<br>
                 San Juan, PR 00922 <br><br>
-
-                <div> Like us on: &nbsp
-                    <a href="https://www.facebook.com/jporratatasadores/" target="_blank">
-                    <img src="icons/facebook.png" height="30" width="30"/></a>
-                </div>
-                <div id="ref" class="black-background"> </div>
+                <div id="ref" class="gray-background"> </div>
             </div>
-        </div>
+
+        </section>
     </div>
 
-    <div class='footer black-background'>
-        <p class='footer-text'> Copyright &copy 2018, JLM Solutions Corp. <br>
+    <div class='footer green-background'>
+        <p class='footer-text'> Copyright &copy; 2018, JLM Solutions Corp. <br>
             All Rights Reserved.
         </p>
     </div>
