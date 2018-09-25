@@ -19,6 +19,12 @@ img {
     vertical-align: middle;
 }
 
+.switch-to-LED-button {
+    border: 1px gray solid;
+    border-radius: 15px;
+    background-color: #ffff4c;
+}
+
 /* The company slogan for different screen widths. */
 @media screen and (max-width:300px) {
     #logo-text {
@@ -556,18 +562,27 @@ ul.projects-list {
 
 /* Mobile friendly responsive Our Clients section. */
 /* (For phones and tablets) */
-@media screen and (max-width:1020px) {
+@media screen and (max-width:1020px)  {
     .suppliers-box {
         font-size: calc(14px + 12 * ((100vw - 300px) / 1300));
         text-align: center;
         height: 150px;
         width: 200px;
-        padding: 0px;
+        padding-top: 30px;
         margin: auto;
+        left: 50%;
+        width: 50%;
     }
 
     .suppliers-text {
         padding: 10px;
+    }
+}
+
+@media screen and (max-width:590px) {
+    .suppliers-box {
+        width: 100%;
+        padding-top: 0px;
     }
 }
 
@@ -587,7 +602,7 @@ ul.projects-list {
 }
 
 .suppliers-box {
-    float: left;
+        float: left;
 }
 
 .shadow {
