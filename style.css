@@ -34,11 +34,27 @@ img {
 
 @media screen and (min-width:301px) {
     #logo-text {
-        font-size: 50%;
         float: left;
         padding-top: 25px;
     }
 }
+
+@media screen and (min-width:501px) {
+    #logo-text {
+        font-size: 50%;
+    }
+}
+
+@media screen and (max-width:501px) {
+    #logo-text {
+        font-size: 12px;
+    }
+
+    .logo-image {
+        padding-left: 2px;
+    }
+}
+
 
 /* Made buttons to control padding and vertical centering. */
 .button {
@@ -201,7 +217,7 @@ a:link, a:visited, a:hover, a:active {
 /* For mobile screens. */
 @media screen and (max-width:659px) {
     .slideshow-container {
-        padding-top: 91px;
+        padding-top: 80px;
     }
 
     .introduction-text {
