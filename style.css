@@ -12,7 +12,7 @@ body {
 
 /* The positioning and padding of the WorkIn logo. */
 .logo-image {
-    padding: 2px 20px 5px 20px;
+    padding: 2px 20px 3px 20px;
 }
 
 img {
@@ -43,27 +43,27 @@ img {
 /* Made buttons to control padding and vertical centering. */
 .button {
     float: right;
-    padding: 36px 20px 0px 10px;
+    padding: 30px 20px 0px 10px;
     font-size: 17px;
 }
 
 @media screen and (min-width: 1070px) {
     .button {
         font-size: 20px;
-        padding: 33px 20px 0px 10px;
+        padding: 30px 20px 0px 10px;
     }
 }
 
 @media screen and (min-width: 1130px) {
     .button {
-        padding: 33px 25px 0px 10px;
+        padding: 30px 25px 0px 10px;
     }
 }
 
 @media screen and (min-width: 1180px) {
     .button {
         font-size: 20px;
-        padding: 33px 33px 0px 10px;
+        padding: 30px 33px 0px 10px;
     }
 }
 
@@ -77,7 +77,7 @@ img {
 
 @media screen and (max-width: 1020px) {
     #logo-text {
-        padding-top: 30px;
+        padding-top: 25px;
     }
 
     .topnav a:not(#first-child):not(.hamburger), .sidenav {
@@ -86,7 +86,7 @@ img {
 
     .topnav a.hamburger {
         float: right;
-        padding: 30px 30px 10px 30px;
+        padding: 25px 30px 10px 30px;
     }
 
     .sidenav {
